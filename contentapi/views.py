@@ -11,15 +11,7 @@ from rest_framework import generics
 from django_filters import rest_framework as filters
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
-'''
-# Viewset that checks login credentials and returns token  
-class LoginViewSet(viewsets.ViewSet):
 
-    serializer_class=AuthTokenSerializer
-
-    def create(self,request):
-        return ObtainAuthToken().post(request)
-'''
 
 # APIView for User Registration
 class RegisterAPI(generics.GenericAPIView):
