@@ -51,8 +51,9 @@ UPDATE request: Update particular content by id
 
 
 ## Searching and Filtering ##
-Search fields by specifying fields in route followed by suffix '__icontains' followed by your desired query.
-Example: 127.0.0.1:8000/api/content/?title__icontains=MyPostj&body__icontains=body&summary__icontains=dummary
+### Search fields by specifying fields in route followed by suffix '__icontains' followed by your desired query. ###
+
+#### Example: 127.0.0.1:8000/api/content/?title__icontains=MyPostj&body__icontains=body&summary__icontains=dummary ####
 ![check1](https://user-images.githubusercontent.com/44212979/111078156-3634b580-851a-11eb-961b-743dc4525f52.png)
 
 
